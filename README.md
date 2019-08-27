@@ -4,6 +4,7 @@
     - *undefined* þýðir að breyta hafi verið búin til, en á eftir að skilgreina.
     - *null* er hins vegar það sem breytan er skilgreind sem, ef hún á ekki að hafa gildi.
 2. __Hvað gerir *'use strict'* í JavaScript kóða?__
+
 *'use strict'* virkir *'strict mode'*, sem kemur í veg fyrir að þýðandinn lagi væg misstök eða leiðrétti kóðann nokkuð.
 
 3. __Hver er munurinn á let, var og const?__
