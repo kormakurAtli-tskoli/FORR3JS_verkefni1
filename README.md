@@ -1,13 +1,15 @@
 # FORR3JS05DU - Verkefni 1
 1. __Hvað er *null* og *undefined*__
-*undefined* er datatýpa, en *null* er object.
-    - *undefined* þýðir að breyta hafi verið búin til, en á eftir að skilgreina.
-    - *null* er hins vegar það sem breytan er skilgreind sem, ef hún á ekki að hafa gildi.
+    - `undefined` er datatýpa, en `null` er object.
+    - `undefined` þýðir að breyta hafi verið búin til, en á eftir að skilgreina.
+    - `null` er hins vegar það sem breytan er skilgreind sem, ef hún á ekki að hafa gildi.
 2. __Hvað gerir *'use strict'* í JavaScript kóða?__
-
-*'use strict'* virkir *'strict mode'*, sem kemur í veg fyrir að þýðandinn lagi væg misstök eða leiðrétti kóðann nokkuð.
+    - `use strict` virkir *'strict mode'*, sem kemur í veg fyrir að þýðandinn lagi væg misstök eða leiðrétti kóðann nokkuð.
 
 3. __Hver er munurinn á let, var og const?__
+    - `let` er hægt að uppfæra en ekki endurskilgreina.
+    - `var` er hægt að uppfæra og endurskilgreina.
+    - `const` er ekki hægt að uppfæra, þessar breytur eru gerðar til þess að hafa eitt gildi að eilífu.
 4. __Endurskrifaðu eftirfarandi kóða með for lykkjunni:__
     ```javascript
     let x = 9;
@@ -34,7 +36,8 @@
     }
     ```
     ```javascript
-    let fall = (y, x) => y + x;
+    let fall = function fall(y, x){
+        return y + x;
     }
     ```
 6. __Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir?__
