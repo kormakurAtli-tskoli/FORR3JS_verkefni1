@@ -34,8 +34,7 @@
     }
     ```
     ```javascript
-    let fall = function fall(y, x){
-        return y + x;
+    let fall = (y, x) => y + x;
     }
     ```
 6. __Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir?__
